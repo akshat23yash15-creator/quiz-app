@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS specificity</title>
+    <style>
+        h1{
+            color: blue;
+        }
+        .cred{
+            color: hotpink;
+        }
+        .cyellow{
+            color: darkred;
+        }
+        .cpurple{
+            color: magenta;
+        }
+        p{
+            text-decoration: underline;
+            font-weight: bold;
+            font-style: italic;
+        }
+        #pink{
+            color: rgb(142, 127, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="cred cpurple cyellow" id="pink">CSS specificity.</h1>
+    <p>Here, important> inline CSS>id selector>class selector>element selector>universal selector.
+        
+    </p>
+</body>
+</html>

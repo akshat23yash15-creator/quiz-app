@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        .box{
+            width: 95vw;
+            height:1000px;
+            border: 2px solid red;
+            background-color: black;
+        }
+        .sticky{
+            position: sticky;
+            top: 0;
+            border: 1px solid black;
+            height: 70px;
+            margin: 1px; border-color: white;background-color: pink;
+        }
+        .boxes{
+            border: 1px solid black;
+            height: 350px;
+            margin: 10px;
+            background-color: rgb(30, 204, 30);
+            display: flex;
+        }
+        .box1{
+            border: 1px solid black;
+            width: 240px;
+            height: 280px;
+            margin: 20px;
+            /* display: flex; */
+            background-color: aqua;
+        }
+        .box2{
+             border: 1px solid black;
+            width: 240px;
+            height: 280px;
+            margin-left: 60px ;
+            margin-top: 20px;
+            /* display: flex; */
+            background-color: red;
+        }
+        .box3{
+            height: 90px;
+            width: 90vw;
+            border: 2px solid black;
+            /* padding: 10px; */
+            border-radius: 25px;margin: 15px auto;
+            font-size: 30px; 
+            text-align: center;
+            color: white;
+            border-color: white;
+        }
+        .foot{
+            border-color: white;
+            border: 1px solid white;height: 70px;
+            margin: 1px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="sticky"></div>
+    <div class="boxes">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+    <div class="box3">Welcome to this Sigma Web development Express</div>
+    <footer>
+        <div class="foot"></div>
+    </footer>
+</div>
+</body>
+</html>

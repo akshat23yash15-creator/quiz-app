@@ -1,0 +1,24 @@
+body{
+    background-color: green;
+    color: white;
+}
+td{
+    background-color: red;
+    border: 3px solid black;
+}
+th{
+   background-color: hotpink;
+   border: 3px solid black;
+}
+p{
+    background-color:blueviolet ;
+}
+a{
+    background-color: brown;
+}
+.red{
+    color: red;
+}
+#firstdiv{
+    background-color: hotpink;
+}
